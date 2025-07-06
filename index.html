@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="icon.png" type="image/png">
+  <title>AtanaBuild - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+      color: #e0d9ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+         text-shadow: 0 0 5px #7c4dff,
+                   0 0 10px #7c4dff,
+                   0 0 20px #7c4dff,
+                   0 0 40px #7c4dff;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    p {
+         text-shadow: 0 0 5px #7c4dff,
+                   0 0 10px #7c4dff,
+                   0 0 20px #7c4dff,
+                   0 0 40px #7c4dff;
+      max-width: 600px;
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 2.5rem;
+    }
+
+    .build-button {
+      background-color: #7c4dff;
+      color: white;
+      border: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #7c4dff;
+    }
+
+    .build-button:hover {
+      background-color: #a37bff;
+      box-shadow: 0 0 20px #a37bff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to AtanaBuild</h1>
+  <p>Choose a CPU and we’ll automatically match compatible parts to build a complete PC — motherboard, RAM, GPU, PSU, case, and more.</p>
+  <button class="build-button" onclick="location.href='cpu.html'">Build now!</button>
+</body>
+</html>
